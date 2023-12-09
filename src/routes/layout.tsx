@@ -18,7 +18,7 @@ export default component$(() => {
   return (
     <>
       <Header />
-      <main>
+      <main class="mt-16 lg:mt-32">
         <Slot />
       </main>
       <Footer />
